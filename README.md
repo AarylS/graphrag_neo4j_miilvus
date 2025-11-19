@@ -7,10 +7,7 @@ this code follows - https://github.com/milvus-io/bootcamp/blob/master/bootcamp/R
 
 it is changed to run with google-gemini
 
-graphrag
-    this is a rag system with a graph to store the relation between possible entities. this provides better/improved context to the llm for grounding. rag are good at finding relevent texts and graphrag are good at finding relevent connections
-
-    in graphrag, entities and their relations are extracted from chunks and store in a graph database like neo4j. these are store as nodes and edges.
+graphrag, this is a rag system with a graph to store the relation between possible entities. this provides better/improved context to the llm for grounding. rag are good at finding relevent texts and graphrag are good at finding relevent connections in graphrag, entities and their relations are extracted from chunks and store in a graph database like neo4j. these are store as nodes and edges.
 
 
 ## techstack
